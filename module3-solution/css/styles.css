@@ -1,0 +1,26 @@
+.menu-section {
+  background-color: #f8f8f8;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+
+.navbar-nav > li > a {
+  padding: 15px 20px;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #f8f8f8;
+  }
+}
